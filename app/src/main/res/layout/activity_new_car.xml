@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewCourseActivity">
+
+    <!--edit text for our course name-->
+
+    <EditText
+        android:id="@+id/addEdCarManufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Car Manufacturer" />
+
+    <!--edit text for our course description-->
+    <EditText
+        android:id="@+id/addEdCarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Car Year" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/addEdCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Car Model" />
+
+    <!--button for saving data to room database-->
+
+    <EditText
+        android:id="@+id/addEdCarEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Car Engine" />
+
+    <Button
+        android:id="@+id/cmdSaveCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Save Your Car"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:iconTint="#C89797" />
+
+</LinearLayout>
